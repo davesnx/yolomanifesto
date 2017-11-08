@@ -1,0 +1,188 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  color: #222222;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+::before,
+::after {
+  box-sizing: inherit;
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
+}
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  overflow-y: scroll;
+}
+
+html,
+body {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  cursor: default;
+
+  margin: 0;
+  padding: 0;
+
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+
+p {
+  margin: 0;
+}
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.header {
+  text-align: center;
+
+  padding: 5% 10%;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 0.6em 0em;
+}
+
+.header h1>span {
+  font-weight: 400;
+}
+
+.header h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em 0em;
+}
+
+main {
+  display: flex;
+  min-height: calc(100vh - 300px);
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 650px;
+  padding: 0 3.2em;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 4em;
+  width: 100%;
+  min-height: 300px;
+  background: black;
+}
+
+.footer-content {
+  padding: 2em;
+  text-align: center;
+  color: white;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-content>p {
+  line-height: 25px;
+}
+
+.footer-content * {
+  color: white;
+}
+
+.social-media-item {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-item > svg {
+  margin: 0em 1em;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+.social-media {
+  padding-top: 0.5em;
+}

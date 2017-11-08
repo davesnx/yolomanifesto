@@ -1,0 +1,65 @@
+.principles-title {
+  margin-bottom: 0.5em;
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.principle-list {
+  counter-reset: principle-counter;
+  margin: 0 auto;
+}
+
+.principle {
+  counter-increment: principle-counter;
+
+  min-height: 100px;
+  position: relative;
+  margin: 2.5em 0;
+
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.principle::after {
+  content: counter(principle-counter);
+
+  position: absolute;
+  top: -10px;
+  left: -40px;
+
+  font-size: 100px;
+  font-weight: 700;
+
+  z-index: -1;
+  opacity: 0.6;
+  color: #7FDBFF;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 650px;
+  padding: 0 3.2em;
+  margin: 0 auto;
+}
+
+.link {
+  color: #0074D9;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px 40px;
+}
+
+.link:hover {
+  text-underline-position: under;
+  text-decoration: underline;
+}
+
