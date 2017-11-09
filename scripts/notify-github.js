@@ -19,7 +19,7 @@ if (!argv.hasOwnProperty('msg') && isUrl(argv.msg)) {
   console.log('You should provide a --msg argument')
   process.exit(1)
 } else if (!isUrl(argv.msg)) {
-  // It looks like NOW_DEPLOY_URL isn't a URL, can be a error from now.sh
+  // NOW_DEPLOY_URL isn't a URL, can be an error from now's deploy
   console.log(argv.msg)
   process.exit(1)
 }
