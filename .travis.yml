@@ -6,9 +6,7 @@ branches:
   only:
     - "master"
 
-cache:
-  directories:
-    - "node_modules"
+cache: yarn
 
 before_script:
   - yarn run lint
