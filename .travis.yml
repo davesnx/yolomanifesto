@@ -15,4 +15,4 @@ script:
 
 after_script:
   - yarn add now
-  - test $TRAVIS_BRANCH = "master" && now -t $TOKEN_NOW --public alias
+  - test $TRAVIS_BRANCH = "master" && now --token $TOKEN_NOW --public alias
