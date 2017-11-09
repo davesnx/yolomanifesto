@@ -15,11 +15,11 @@ script:
 
 after_script:
   - yarn add now
-  - test $TRAVIS_BRANCH = "master" && now --token ${TOKEN_NOW} --public alias
+  - test $TRAVIS_BRANCH = "master" && now --token $NOW_TOKEN --public alias
 
 deploy:
   provider: script
-  script: now --token ${TOKEN_NOW} --public
+  script: now --token $NOW_TOKEN --public
   on:
     branch: master
   condition: $TRAVIS_EVENT_TYPE = "push"
