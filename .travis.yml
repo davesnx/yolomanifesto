@@ -13,5 +13,6 @@ before-script:
 script:
   - yarn test
 
-after-script:
-  - echo "Deploy to now!"
+after_success:
+  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" &&
+    now -t $TOKEN_NOW --public alias
