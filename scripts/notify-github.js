@@ -20,6 +20,12 @@ if (!argv.hasOwnProperty('msg') && isUrl(argv.msg)) {
   process.exit(1)
 }
 
+if (!isUrl(argv.msg)) {
+  // It looks like NOW_DEPLOY_URL isn't a URL, can be a error from now.sh
+  console.log(argv.msg)
+  process.exit(1)
+}
+
 const repository = process.env.TRAVIS_REPO_SLUG.split('/')
 const bodyMessage = `
 **NOW URL**
@@ -30,7 +36,7 @@ const Message = {
   owner: repository[0],
   repo: repository[1],
   number: process.env.TRAVIS_PULL_REQUEST,
-  body: argv.msg
+  body: bodyMessage
 }
 
 github.issues.createComment(Message)
