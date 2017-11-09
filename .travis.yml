@@ -15,4 +15,12 @@ script:
 
 after_script:
   - yarn add now
-  - test $TRAVIS_BRANCH = "master" && now --token $TOKEN_NOW --public alias
+  - if [ "$TRAVIS_BRANCH" == "pull_request" ]; then now --token ${TOKEN_NOW} --public alias; fi
+
+deploy:
+  provider: script
+  script: now --token ${TOKEN_NOW} --public
+  on:
+    branch: master
+  condition: $TRAVIS_EVENT_TYPE = "push"
+  skip_cleanup: true
