@@ -18,7 +18,7 @@ script:
 after_script:
   - yarn add now
   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-      $NOW_DEPLOY_URL = now --token $NOW_TOKEN --public alias;
+      export NOW_DEPLOY_URL = now --token $NOW_TOKEN --public alias;
       ./script/notify-github.js --msg $NOW_DEPLOY_URL;
     fi'
 
