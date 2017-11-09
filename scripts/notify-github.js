@@ -18,19 +18,14 @@ if (!isRunningInsideCI) {
 if (!argv.hasOwnProperty('msg') && isUrl(argv.msg)) {
   console.log('You should provide a --msg argument')
   process.exit(1)
-}
-
-if (!isUrl(argv.msg)) {
+} else if (!isUrl(argv.msg)) {
   // It looks like NOW_DEPLOY_URL isn't a URL, can be a error from now.sh
   console.log(argv.msg)
   process.exit(1)
 }
 
 const repository = process.env.TRAVIS_REPO_SLUG.split('/')
-const bodyMessage = `
-**NOW URL**
-  Preview this PR here: ${argv.msg}
-`
+const bodyMessage = `#### [BOT now.sh deploy] preview this PR here: ${argv.msg}`
 
 const Message = {
   owner: repository[0],
