@@ -14,12 +14,10 @@ before_script:
 
 script:
   - yarn test
-
-after_script:
   - yarn add now
   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-      export NOW_DEPLOY_URL = now --token $NOW_TOKEN --public alias;
-      ./script/notify-github.js --msg $NOW_DEPLOY_URL;
+      export NOW_DEPLOY_URL=(now --token $NOW_TOKEN --public alias);
+      node ./scripts/notify-github.js --msg $NOW_DEPLOY_URL;
     fi'
 
 deploy:
