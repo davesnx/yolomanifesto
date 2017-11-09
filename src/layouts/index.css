@@ -17,15 +17,21 @@
   vertical-align: inherit; /* 2 */
 }
 
+html {
+  overflow-y: scroll;
+
+  // background: url(./../assets/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-
-html {
-  overflow-y: scroll;
-}
 
 html,
 body {

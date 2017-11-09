@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
@@ -9,8 +8,9 @@ const Footer = () => (
   <footer className='footer'>
     <div className='footer-content'>
       <p>
-        Are you actually following some of this? It has been a revelation for you? Do you want to apply that to your bussines? or
-        maybe... want to make joke of this?
+        Are you actually following some of this? It has been a revelation for
+        you? Do you want to apply that to your bussines? or maybe... want to
+        make joke of this?
       </p>
 
       <div className='social-media'>

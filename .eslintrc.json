@@ -1,9 +1,15 @@
 {
   "extends": [
-    "prettier"
+    "prettier",
+    "prettier/react",
+    "prettier/standard",
+    "standard",
+    "standard-react"
   ],
   "plugins": [
-    "react"
+    "react",
+    "prettier",
+    "standard"
   ],
   "env": {
     "browser": true
