@@ -6,7 +6,9 @@
   "dependencies": {
     "gatsby": "^1.9.102",
     "gatsby-link": "^1.6.24",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "is-ci": "^1.0.10",
+    "minimist": "^1.2.0"
   },
   "keywords": [
     "gatsby"
@@ -22,16 +24,16 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "prettier-eslint": "^8.2.1",
-    "prettier-eslint-cli": "^4.4.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.4.0",
-    "eslint-plugin-standard": "^3.0.1",
     "babel-eslint": "^8.0.2",
     "eslint-config-prettier": "^2.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
     "prettier": "^1.8.1",
+    "prettier-eslint": "^8.2.1",
+    "prettier-eslint-cli": "^4.4.0",
     "standard": "^10.0.3"
   }
 }

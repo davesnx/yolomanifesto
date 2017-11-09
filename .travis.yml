@@ -17,7 +17,10 @@ script:
 
 after_script:
   - yarn add now
-  - test $TRAVIS_BRANCH = "master" && now --token $NOW_TOKEN --public alias
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+      $NOW_DEPLOY_URL = now --token $NOW_TOKEN --public alias;
+      ./script/notify-github.js --msg $NOW_DEPLOY_URL;
+    fi'
 
 deploy:
   provider: script
