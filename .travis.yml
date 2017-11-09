@@ -6,12 +6,13 @@ cache:
   directories:
     - "node_modules"
 
-before-script:
+before_script:
   - yarn run lint
   - yarn run build
 
 script:
   - yarn test
 
-after_success:
+after_script:
+  - yarn add now
   - test $TRAVIS_BRANCH = "master" && now -t $TOKEN_NOW --public alias
