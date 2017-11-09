@@ -14,5 +14,4 @@ script:
   - yarn test
 
 after_success:
-  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" &&
-    now -t $TOKEN_NOW --public alias
+  - test $TRAVIS_BRANCH = "master" && now -t $TOKEN_NOW --public alias
