@@ -2,16 +2,28 @@ language: node_js
 node_js:
   - 8
 
-cache:
-  directories:
-    - "node_modules"
+branches:
+  only:
+    - "master"
 
-before-script:
+cache: yarn
+
+before_script:
   - yarn run lint
   - yarn run build
 
 script:
   - yarn test
+  - yarn add now
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+      export NOW_DEPLOY_URL="$(now --token $NOW_TOKEN --public alias)";
+      node ./scripts/notify-github.js --msg $NOW_DEPLOY_URL;
+    fi'
 
-after-script:
-  - echo "Deploy to now!"
+deploy:
+  provider: script
+  script: now --token $NOW_TOKEN --public
+  on:
+    branch: master
+  condition: $TRAVIS_EVENT_TYPE = "push"
+  skip_cleanup: true
