@@ -33,14 +33,14 @@ const Principle = styled.article`
 
   &::after {
     content: counter(principle-counter);
-  
+
     position: absolute;
     top: -10px;
     left: -40px;
-  
+
     font-size: 100px;
     font-weight: 700;
-  
+
     z-index: -1;
     opacity: 0.6;
     color: ${colors.lightBlue};

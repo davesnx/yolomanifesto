@@ -50,15 +50,15 @@ const SocialMediaItem = styled.a`
   justify-content: center;
   align-items: center;
   margin: 0px 5px;
-  
+
   & > svg {
     margin: 0em 1em;
   }
-  
+
   &:hover {
     text-decoration: underline;
     text-underline-position: under;
-    
+
     & > svg {
       animation: ${fromBlueToWhite} 700ms ease;
     }
@@ -79,7 +79,6 @@ const Root = () => (
         you? Do you want to apply that to your bussines? or maybe... want to
         make joke of this?
       </p>
-
     </Content>
     <SocialMediaList>
       <SocialMediaItem

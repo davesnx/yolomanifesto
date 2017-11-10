@@ -9,8 +9,8 @@ const ResetCSS = css`
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   }
 
   ::before,
@@ -23,7 +23,7 @@ const ResetCSS = css`
   html {
     overflow-y: scroll;
 
-    // background: url(./../assets/background.png) no-repeat center center fixed; 
+    // background: url(./../assets/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,10 +48,10 @@ const ResetCSS = css`
 
     word-wrap: break-word;
     font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
+    -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   }
 
   /**
@@ -61,7 +61,6 @@ const ResetCSS = css`
   img {
     border-style: none;
   }
-
 
   p {
     margin: 0;
@@ -82,7 +81,6 @@ const ResetCSS = css`
     outline-width: 0;
   }
 
-
   img {
     border-style: none;
   }
@@ -101,17 +99,17 @@ const ResetCSS = css`
     text-transform: none;
   }
 
-  [type=button]::-moz-focus-inner,
-  [type=reset]::-moz-focus-inner,
-  [type=submit]::-moz-focus-inner,
+  [type='button']::-moz-focus-inner,
+  [type='reset']::-moz-focus-inner,
+  [type='submit']::-moz-focus-inner,
   button::-moz-focus-inner {
     border-style: none;
     padding: 0;
   }
 
-  [type=button]:-moz-focusring,
-  [type=reset]:-moz-focusring,
-  [type=submit]:-moz-focusring,
+  [type='button']:-moz-focusring,
+  [type='reset']:-moz-focusring,
+  [type='submit']:-moz-focusring,
   button:-moz-focusring {
     outline: 1px dotted ButtonText;
   }

@@ -16,9 +16,9 @@ const Button = styled(Link)`
   &:hover {
     text-underline-position: under;
     text-decoration: underline;
-  }  
+  }
 
-  @media screen and (max-width: 450px) { 
+  @media screen and (max-width: 450px) {
     & {
       margin: 0;
     }

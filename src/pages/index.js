@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Header, HeaderH1 as H1, HeaderH2 as H2 } from './../components/header'
+import { Header, HeaderH1 as H1 } from './../components/header'
 import Main from './../components/main'
 import Button from './../components/button'
 import { version } from './../../package.json'
@@ -26,7 +26,7 @@ const Note = styled.div`
 const People = styled.div`
   display: flex;
   justify-content: center;
-  @media screen and (max-width: 450px) { 
+  @media screen and (max-width: 450px) {
     & {
       flex-direction: column;
     }
@@ -67,20 +67,24 @@ const Home = () => (
 
           <People>
             <Column>
-              Kent Beck Mike Beedle Arie van Bennekum Alistair Cockburn Ward
-              Cunningham Martin Fowler
+              David Sancho
+              <br />Mike Beedle
+              <br />Arie van Bennekum
+              <br />Martin Fowler
             </Column>
             <Column>
-              James Grenning Jim Highsmith Andrew Hunt Ron Jeffries Jon Kern
-              Brian Marick
+              James Grenning
+              <br />Jim Highsmith
+              <br />Andrew Hunt
+              <br />Ron Jeffries
+              <br />Jon Kern
+              <br />Brian Marick
             </Column>
           </People>
         </Description>
       </section>
 
-      <Button to='/principles/'>
-        PRINCIPLES
-      </Button>
+      <Button to='/principles/'>PRINCIPLES</Button>
     </Main>
   </div>
 )

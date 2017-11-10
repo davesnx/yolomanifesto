@@ -26,9 +26,7 @@ const TemplateWrapper = ({ children }) => (
     >
       <meta charSet='utf-8' />
     </Helmet>
-    <Wrapper>
-      {children()}
-    </Wrapper>
+    <Wrapper>{children()}</Wrapper>
     <Footer />
   </div>
 )
