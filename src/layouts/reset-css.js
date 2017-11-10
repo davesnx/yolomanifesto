@@ -1,4 +1,6 @@
-const ResetCSS = `
+import { css } from 'styled-components'
+
+const ResetCSS = css`
   * {
     font-family: 'Roboto Mono', monospace;
     color: #222222;

@@ -9,6 +9,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "precommit": "yarn run lint",
+    "prepush": "yarn run format && yarn run test",
     "now-start": "gatsby serve",
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -24,6 +26,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sitemap": "^1.2.5",
     "gatsby-plugin-styled-components": "^2.0.2",
+    "husky": "^0.14.3",
     "styled-components": "^2.2.3"
   },
   "devDependencies": {

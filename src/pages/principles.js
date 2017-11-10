@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import Main from './../components/main'
 import { Header, HeaderH1 as H1, HeaderH2 as H2 } from './../components/header'
 import Button from './../components/button'
+import { version } from './../../package.json'
+import { colors } from './../constants'
 
 const PrinciplesTitle = styled.div`
   margin-bottom: 0.5em;
@@ -41,7 +43,7 @@ const Principle = styled.article`
   
     z-index: -1;
     opacity: 0.6;
-    color: #7FDBFF;
+    color: ${colors.lightBlue};
   }
 `
 
