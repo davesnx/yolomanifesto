@@ -1,13 +1,8 @@
 {
   "name": "yolomanifesto.com",
-  "description": "",
+  "description": "The Yolo (Development) Manifesto 🤘",
   "version": "0.0.1",
   "author": "",
-  "dependencies": {
-    "gatsby": "^1.9.102",
-    "gatsby-link": "^1.6.24",
-    "gatsby-plugin-react-helmet": "^1.0.8"
-  },
   "keywords": [
     ""
   ],
@@ -21,6 +16,16 @@
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
+  "dependencies": {
+    "gatsby": "^1.9.102",
+    "gatsby-link": "^1.6.24",
+    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-offline": "^1.0.10",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sitemap": "^1.2.5",
+    "gatsby-plugin-styled-components": "^2.0.2",
+    "styled-components": "^2.2.3"
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
     "eslint-config-prettier": "^2.7.0",
@@ -31,11 +36,11 @@
     "eslint-plugin-standard": "^3.0.1",
     "github": "^12.0.1",
     "is-ci": "^1.0.10",
+    "is-url": "^1.2.2",
     "minimist": "^1.2.0",
     "prettier": "^1.8.1",
     "prettier-eslint": "^8.2.1",
     "prettier-eslint-cli": "^4.4.0",
-    "standard": "^10.0.3",
-    "is-url": "^1.2.2"
+    "standard": "^10.0.3"
   }
 }

@@ -1,110 +1,152 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
 
-import './principles.css'
+import Main from './../components/main'
+import { Header, HeaderH1 as H1, HeaderH2 as H2 } from './../components/header'
+import Button from './../components/button'
+
+const PrinciplesTitle = styled.div`
+  margin-bottom: 0.5em;
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: 200;
+  font-style: italic;
+`
+
+const PrincipleList = styled.section`
+  counter-reset: principle-counter;
+  margin: 0 auto;
+`
+
+const Principle = styled.article`
+  counter-increment: principle-counter;
+
+  min-height: 100px;
+  position: relative;
+  margin: 2.5em 0;
+
+  font-size: 20px;
+  line-height: 30px;
+
+  &::after {
+    content: counter(principle-counter);
+  
+    position: absolute;
+    top: -10px;
+    left: -40px;
+  
+    font-size: 100px;
+    font-weight: 700;
+  
+    z-index: -1;
+    opacity: 0.6;
+    color: #7FDBFF;
+  }
+`
 
 const Principles = () => (
   <div>
-    <header className='header'>
-      <h2>Principles behind</h2>
-      <h1>
-        The Yolo
-        <span>(Development)</span> Manifesto 🤘
-      </h1>
-    </header>
+    <Header>
+      <H2>Principles behind</H2>
+      <H1>
+        The Yolo <span>(Development)</span> Manifesto 🤘
+      </H1>
+      v{version}
+    </Header>
 
-    <main>
-      <p className='principles-title'>We follow these principles:</p>
+    <Main>
+      <PrinciplesTitle>We follow these principles:</PrinciplesTitle>
 
-      <section className='principle-list'>
-        <article className='principle'>
+      <PrincipleList>
+        <Principle>
           <p>
             Our highest priority is to satisfy the customer through early and
             continuous delivery of valuable software.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Welcome changing requirements, even late in development. Agile
             processes harness change for the customer's competitive advantage.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Deliver working software frequently, from a couple of weeks to a
             couple of months, with a preference to the shorter timescale.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Business people and developers must work together daily throughout
             the project.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Build projects around motivated individuals. Give them the
             environment and support they need, and trust them to get the job
             done.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             The most efficient and effective method of conveying information to
             and within a development team is face-to-face conversation.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>Working software is the primary measure of progress.</p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Agile processes promote sustainable development. The sponsors,
             developers, and users should be able to maintain a constant pace
             indefinitely.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Continuous attention to technical excellence and good design
             enhances agility.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             Simplicity--the art of maximizing the amount of work not done--is
             essential.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             The best architectures, requirements, and designs emerge from
             self-organizing teams.
           </p>
-        </article>
+        </Principle>
 
-        <article className='principle'>
+        <Principle>
           <p>
             At regular intervals, the team reflects on how to become more
             effective, then tunes and adjusts its behavior accordingly.
           </p>
-        </article>
-      </section>
+        </Principle>
+      </PrincipleList>
 
-      <Link className='link' to='/'>
+      <Button link to='/'>
         ⟵ MANIFESTO
-      </Link>
-    </main>
+      </Button>
+    </Main>
   </div>
 )
 
