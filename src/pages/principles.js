@@ -63,43 +63,52 @@ const Principles = () => (
       <PrincipleList>
         <Principle>
           <p>
-            Our highest priority is to satisfy the customer through early and continuous delivery of valuable software aka Deliver software frequently.
+            Our highest priority is to satisfy the customer through early and
+            continuous delivery of valuable software aka Deliver software
+            frequently.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Usually, the fastest option is the best option. You should implement anything as fast as you can be, without affecting the quality. Analyzing carefully which risk are you taking, where they come from and how to solve them on the future.
+            Usually, the fastest option is the best option. You should implement
+            anything as fast as you can be, without affecting the quality.
+            Analyzing carefully which risk are you taking, where they come from
+            and how to solve them on the future.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            We strongly think that Software does not have an end neither perfection. You should not fall into the temptation to create perfection around.
+            We strongly think that Software does not have an end neither
+            perfection. You should not fall into the temptation to create
+            perfection around.
+          </p>
+        </Principle>
+
+        <Principle>
+          <p>Motivation is key.</p>
+        </Principle>
+
+        <Principle>
+          <p>Bring community involvement from the beginning.</p>
+        </Principle>
+
+        <Principle>
+          <p>
+            The best projects, business and designs emerge from self-organizing
+            teams. Teams need to be together. Together on a clear goal. Together
+            on the decisions.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Motivation is key.
-          </p>
-        </Principle>
-
-        <Principle>
-          <p>
-            Bring community involvement from the beginning.
-          </p>
-        </Principle>
-
-        <Principle>
-          <p>
-            The best projects, business and designs emerge from self-organizing teams. Teams need to be together. Together on a clear goal. Together on the decisions.
-          </p>
-        </Principle>
-
-        <Principle>
-          <p>
-            There is no trust without honesty. You can’t trust someone if that someone isn’t honest about their reasoning, ability or intent. Their dishonesty takes away your possibility to make a good decision. Good decision means, is approved and committed by everybody. Consensus is the only way to be aligned.
+            There is no trust without honesty. You can’t trust someone if that
+            someone isn’t honest about their reasoning, ability or intent. Their
+            dishonesty takes away your possibility to make a good decision. Good
+            decision means, is approved and committed by everybody. Consensus is
+            the only way to be aligned.
           </p>
         </Principle>
 

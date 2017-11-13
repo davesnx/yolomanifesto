@@ -48,12 +48,14 @@ const Home = () => (
       <section>
         <Description>
           <p>
-            The Yolo Manifesto is an opinionated work methodology for Software Developers/Teams, Product Teams and any kind of organization.
-
+            The Yolo Manifesto is an opinionated work methodology for Software
+            Developers/Teams, Product Teams and any kind of organization.
             <br />
             <br />
-            It might look similar to Agile Manifesto but with the difference that we consider time the most important value.
-            Time is the unique resource that can’t be full-filled. If you can deliver something fast, you must release it fast.
+            It might look similar to Agile Manifesto but with the difference
+            that we consider time the most important value. Time is the unique
+            resource that can’t be full-filled. If you can deliver something
+            fast, you must release it fast.
           </p>
 
           <Note>
@@ -72,7 +74,6 @@ const Home = () => (
               <br />???
               <br />???
               <br />???
-
             </Column>
           </People>
         </Description>
