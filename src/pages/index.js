@@ -16,8 +16,6 @@ const Description = styled.article`
   }
 `
 
-const List = styled.div``
-
 const Note = styled.div`
   font-size: 16px;
   line-height: 25px;
@@ -50,35 +48,31 @@ const Home = () => (
       <section>
         <Description>
           <p>
-            We are uncovering better ways of developing software by doing it and
-            helping others do it. Through this work we have come to value:
+            The Yolo Manifesto is an opinionated work methodology for Software Developers/Teams, Product Teams and any kind of organization.
+
+            <br />
+            <br />
+            It might look similar to Agile Manifesto but with the difference that we consider time the most important value.
+            Time is the unique resource that can’t be full-filled. If you can deliver something fast, you must release it fast.
           </p>
 
-          <List>
-            Individuals and interactions over processes and tools Working
-            software over comprehensive documentation Customer collaboration
-            over contract negotiation Responding to change over following a plan
-          </List>
-
           <Note>
-            That is, while there is value in the items on the right, we value
-            the items on the left more.
+            We know how to do it, we don't know how to explain it well yet.
           </Note>
 
           <People>
             <Column>
               David Sancho
-              <br />Mike Beedle
-              <br />Arie van Bennekum
-              <br />Martin Fowler
+              <br />???
+              <br />???
+              <br />???
             </Column>
             <Column>
-              James Grenning
-              <br />Jim Highsmith
-              <br />Andrew Hunt
-              <br />Ron Jeffries
-              <br />Jon Kern
-              <br />Brian Marick
+              ???
+              <br />???
+              <br />???
+              <br />???
+
             </Column>
           </People>
         </Description>

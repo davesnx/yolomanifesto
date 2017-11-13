@@ -63,49 +63,44 @@ const Principles = () => (
       <PrincipleList>
         <Principle>
           <p>
-            Our highest priority is to satisfy the customer through early and
-            continuous delivery of valuable software.
+            Our highest priority is to satisfy the customer through early and continuous delivery of valuable software aka Deliver software frequently.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Welcome changing requirements, even late in development. Agile
-            processes harness change for the customer's competitive advantage.
+            Usually, the fastest option is the best option. You should implement anything as fast as you can be, without affecting the quality. Analyzing carefully which risk are you taking, where they come from and how to solve them on the future.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Deliver working software frequently, from a couple of weeks to a
-            couple of months, with a preference to the shorter timescale.
+            We strongly think that Software does not have an end neither perfection. You should not fall into the temptation to create perfection around.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Business people and developers must work together daily throughout
-            the project.
+            Motivation is key.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            Build projects around motivated individuals. Give them the
-            environment and support they need, and trust them to get the job
-            done.
+            Bring community involvement from the beginning.
           </p>
         </Principle>
 
         <Principle>
           <p>
-            The most efficient and effective method of conveying information to
-            and within a development team is face-to-face conversation.
+            The best projects, business and designs emerge from self-organizing teams. Teams need to be together. Together on a clear goal. Together on the decisions.
           </p>
         </Principle>
 
         <Principle>
-          <p>Working software is the primary measure of progress.</p>
+          <p>
+            There is no trust without honesty. You can’t trust someone if that someone isn’t honest about their reasoning, ability or intent. Their dishonesty takes away your possibility to make a good decision. Good decision means, is approved and committed by everybody. Consensus is the only way to be aligned.
+          </p>
         </Principle>
 
         <Principle>
