@@ -70,7 +70,7 @@ const Home = () => (
               <br />???
             </Column>
             <Column>
-              ???
+              Gerard Abelló
               <br />???
               <br />???
               <br />???

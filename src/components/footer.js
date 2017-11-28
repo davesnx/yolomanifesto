@@ -103,7 +103,7 @@ const Root = () => (
         </Icon>
       </SocialMediaItem>
       <SocialMediaItem
-        href='https://github.com/davesnx/yolomanifesto.com'
+        href='https://github.com/davesnx/yolomanifesto'
         target='_blank'
         className='github social-media-item'
       >
