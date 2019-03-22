@@ -35,6 +35,19 @@ const Column = styled.div`
   padding: 0 10px;
 `
 
+const Person = styled.a.attrs({
+  target: '_blank'
+})`
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+
+  &:hover {
+    border-bottom: 2px solid;
+    margin-bottom: 13px;
+  }
+`
+
 const Home = () => (
   <div>
     <Header>
@@ -50,13 +63,14 @@ const Home = () => (
           <p>
             The Yolo Manifesto is an opinionated work methodology for Software
             Developers/Teams, Product Teams and any kind of organization.
-            <br />
-            <br />
+          </p>
+          <p>
             It might look similar to Agile Manifesto but with the difference
             that we consider time the most important value. Time is the unique
-            resource that can’t be full-filled. If you can deliver something
-            fast, you must release it fast.
+            resource that can’t be full-filled.
           </p>
+
+          <p> If you can deliver something fast, you must release it fast.</p>
 
           <Note>
             We know how to do it, we don't know how to explain it well yet.
@@ -64,16 +78,18 @@ const Home = () => (
 
           <People>
             <Column>
-              David Sancho
-              <br />???
-              <br />???
-              <br />???
+              <Person href='https://twitter.com/davesnx'>David Sancho</Person>
+              <Person href='https://github.com/fbaiodias'>
+                Francisco Baio Dias
+              </Person>
+              <Person href='https://christianost.de'>Christian Ost</Person>
             </Column>
             <Column>
-              Gerard Abelló
-              <br />???
-              <br />???
-              <br />???
+              <Person href='https://gerard.sh'>Gerard Abelló</Person>
+              <Person href='https://terrencewwong.com'>Terrence Wong</Person>
+              <Person href='https://github.com/simondobson'>
+                Simon Dobson
+              </Person>
             </Column>
           </People>
         </Description>

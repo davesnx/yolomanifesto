@@ -103,13 +103,7 @@ const Principles = () => (
         </Principle>
 
         <Principle>
-          <p>
-            There is no trust without honesty. You can’t trust someone if that
-            someone isn’t honest about their reasoning, ability or intent. Their
-            dishonesty takes away your possibility to make a good decision. Good
-            decision means, is approved and committed by everybody. Consensus is
-            the only way to be aligned.
-          </p>
+          <p>There is no trust without honesty.</p>
         </Principle>
 
         <Principle>
@@ -117,13 +111,6 @@ const Principles = () => (
             Agile processes promote sustainable development. The sponsors,
             developers, and users should be able to maintain a constant pace
             indefinitely.
-          </p>
-        </Principle>
-
-        <Principle>
-          <p>
-            Continuous attention to technical excellence and good design
-            enhances agility.
           </p>
         </Principle>
 

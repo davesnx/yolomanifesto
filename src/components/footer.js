@@ -37,7 +37,7 @@ const fromBlueToWhite = keyframes`
   0%, 100% {
     fill: white;
   }
- 
+
   50% {
     fill: ${colors.blue};
   }
@@ -76,8 +76,8 @@ const Root = () => (
     <Content>
       <p>
         Are you actually following some of this? It has been a revelation for
-        you? Do you want to apply that to your bussines? or maybe... want to
-        make joke of this?
+        you? Want to apply it into your company? or... just want to
+        make fun out of it?
       </p>
     </Content>
     <SocialMediaList>
