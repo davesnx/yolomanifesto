@@ -64,7 +64,7 @@ const Principles = () => (
         <Principle>
           <p>
             Our highest priority is to satisfy the customer through early and
-            continuous delivery of valuable software aka Deliver software
+            continuous delivery of valuable software aka deliver software
             frequently.
           </p>
         </Principle>

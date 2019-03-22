@@ -76,8 +76,8 @@ const Root = () => (
     <Content>
       <p>
         Are you actually following some of this? It has been a revelation for
-        you? Want to apply it into your company? or... just want to
-        make fun out of it?
+        you? Want to apply it into your company? or... just want to make fun out
+        of it?
       </p>
     </Content>
     <SocialMediaList>
