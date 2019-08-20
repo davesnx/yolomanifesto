@@ -44,6 +44,6 @@
     "prettier": "^1.8.1",
     "prettier-eslint": "^8.2.1",
     "prettier-eslint-cli": "^4.4.0",
-    "standard": "^10.0.3"
+    "standard": "^14.0.0"
   }
 }
