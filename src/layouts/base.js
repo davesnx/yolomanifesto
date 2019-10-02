@@ -1,6 +1,6 @@
-import { css } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-const ResetCSS = css`
+export default createGlobalStyle`
   * {
     font-family: 'Roboto Mono', monospace;
     color: #222222;
@@ -23,7 +23,7 @@ const ResetCSS = css`
   html {
     overflow-y: scroll;
 
-    // background: url(./../assets/background.png) no-repeat center center fixed;
+    /* background: url(./../assets/background.png) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,5 +114,3 @@ const ResetCSS = css`
     outline: 1px dotted ButtonText;
   }
 `
-
-export default ResetCSS

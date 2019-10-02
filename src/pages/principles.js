@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Main from './../components/main'
-import { Header, HeaderH1 as H1, HeaderH2 as H2 } from './../components/header'
-import Button from './../components/button'
-import { version } from './../../package.json'
-import { colors } from './../constants'
+import Main from '../components/main'
+import { Header, HeaderH1 as H1, HeaderH2 as H2 } from '../components/header'
+import Button from '../components/button'
+import { version } from '../../package.json'
+import PageWrapper from './wrapper'
+import constants from '../constants'
 
 const PrinciplesTitle = styled.div`
   margin-bottom: 0.5em;
@@ -43,12 +44,12 @@ const Principle = styled.article`
 
     z-index: -1;
     opacity: 0.6;
-    color: ${colors.lightBlue};
+    color: ${constants.colors.lightBlue};
   }
 `
 
 const Principles = () => (
-  <div>
+  <PageWrapper>
     <Header>
       <H2>Principles behind</H2>
       <H1>
@@ -140,7 +141,7 @@ const Principles = () => (
         ⟵ MANIFESTO
       </Button>
     </Main>
-  </div>
+  </PageWrapper>
 )
 
 export default Principles

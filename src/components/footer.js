@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
-import { colors } from './../constants'
+import constants from './../constants'
 
 const Footer = styled.footer`
   margin-top: 4em;
@@ -39,7 +39,7 @@ const fromBlueToWhite = keyframes`
   }
 
   50% {
-    fill: ${colors.blue};
+    fill: ${constants.colors.blue};
   }
 `
 

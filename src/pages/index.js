@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Header, HeaderH1 as H1 } from './../components/header'
 import Main from './../components/main'
 import Button from './../components/button'
+import PageWrapper from './wrapper'
 import { version } from './../../package.json'
 
 const Description = styled.article`
@@ -49,7 +50,7 @@ const Person = styled.a.attrs({
 `
 
 const Home = () => (
-  <div>
+  <PageWrapper>
     <Header>
       <H1>
         The Yolo <span> (Development)</span> Manifesto 🤘
@@ -97,7 +98,7 @@ const Home = () => (
 
       <Button to='/principles/'>PRINCIPLES</Button>
     </Main>
-  </div>
+  </PageWrapper>
 )
 
 export default Home
