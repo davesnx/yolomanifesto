@@ -86,7 +86,7 @@ const Home = () => (
               <Person href='https://christianost.de'>Christian Ost</Person>
             </Column>
             <Column>
-              <Person href='https://gerard.sh'>Gerard Abelló</Person>
+              <Person href='https://gerard.sh'>Gerard Abelló Serras</Person>
               <Person href='https://terrencewwong.com'>Terrence Wong</Person>
               <Person href='https://github.com/simondobson'>
                 Simon Dobson
