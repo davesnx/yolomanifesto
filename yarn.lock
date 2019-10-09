@@ -3577,10 +3577,10 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-davesnx-rules@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/eslint-config-davesnx-rules/-/eslint-config-davesnx-rules-4.0.0.tgz#6cd7730465ecc103a9ccd055bd34890286af4991"
-  integrity sha512-mfFswmR6Ysh/6AvdEV5bxyzJeqCNPDJGQv1qIqMY/GtS81ohWknH+IORNPZr9Lp9JIcrRhd/9o92oXRWac5f6w==
+eslint-config-davesnx-rules@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/eslint-config-davesnx-rules/-/eslint-config-davesnx-rules-1.1.0.tgz#08a65babe52398f6a8f9b145d2b1f3b5f1c8f48c"
+  integrity sha512-AU6YYMwlTpBMuKrW1FhvU7UYwJDL3Hs1tuaEHi9WWXc9rmWz20zhlsOLp6IVLqWpnLLmsh/0hobpKdWYQRKB5A==
   dependencies:
     babel-eslint "^10.0.3"
     eslint "^6.5.1"
@@ -3596,7 +3596,9 @@ eslint-config-davesnx-rules@^4.0.0:
     eslint-plugin-react "^7.15.1"
     eslint-plugin-react-hooks "^2.1.1"
     eslint-plugin-standard "^4.0.1"
+    husky "^3.0.8"
     prettier "^1.18.2"
+    prettier-config-standard "^1.0.1"
 
 eslint-config-prettier-standard@^3.0.1:
   version "3.0.1"
@@ -8221,6 +8223,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prettier-config-standard@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/prettier-config-standard/-/prettier-config-standard-1.0.1.tgz#fe669bbe1d2c8d9437d82e3bc7d5d76e0756d93e"
+  integrity sha512-S0zuixvAFlc0zruhYEDMsjt2VG/e5S5hSbqGuxTMWA0ygjII8EP9U7c/wsCQyjjAoaYG82bUsVmaSQ6veQ+u6g==
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
