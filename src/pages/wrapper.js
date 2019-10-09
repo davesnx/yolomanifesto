@@ -22,9 +22,8 @@ const PageWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' }
-      ]}
-    >
-      <meta charSet='utf-8' />
+      ]}>
+      <meta charSet="utf-8" />
     </Helmet>
     <Wrapper>{children}</Wrapper>
     <Footer />

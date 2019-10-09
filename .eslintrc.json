@@ -1,13 +1,5 @@
 {
   "extends": [
-    "prettier",
-    "prettier/react",
-    "prettier/standard",
-    "standard",
-    "standard-react"
-  ],
-  "plugins": ["react", "prettier", "standard"],
-  "env": {
-    "browser": true
-  }
+    "davesnx-rules"
+  ]
 }

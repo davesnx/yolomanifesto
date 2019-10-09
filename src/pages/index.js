@@ -74,21 +74,21 @@ const Home = () => (
           <p> If you can deliver something fast, you must release it fast.</p>
 
           <Note>
-            We know how to do it, we don't know how to explain it well yet.
+            We know how to do it, we don&apos;t know how to explain it well yet.
           </Note>
 
           <People>
             <Column>
-              <Person href='https://twitter.com/davesnx'>David Sancho</Person>
-              <Person href='https://github.com/fbaiodias'>
+              <Person href="https://twitter.com/davesnx">David Sancho</Person>
+              <Person href="https://github.com/fbaiodias">
                 Francisco Baio Dias
               </Person>
-              <Person href='https://christianost.de'>Christian Ost</Person>
+              <Person href="https://christianost.de">Christian Ost</Person>
             </Column>
             <Column>
-              <Person href='https://gerard.sh'>Gerard Abelló Serras</Person>
-              <Person href='https://terrencewwong.com'>Terrence Wong</Person>
-              <Person href='https://github.com/simondobson'>
+              <Person href="https://gerard.sh">Gerard Abelló Serras</Person>
+              <Person href="https://terrencewwong.com">Terrence Wong</Person>
+              <Person href="https://github.com/simondobson">
                 Simon Dobson
               </Person>
             </Column>
@@ -96,7 +96,7 @@ const Home = () => (
         </Description>
       </section>
 
-      <Button to='/principles/'>PRINCIPLES</Button>
+      <Button to="/principles/">PRINCIPLES</Button>
     </Main>
   </PageWrapper>
 )
