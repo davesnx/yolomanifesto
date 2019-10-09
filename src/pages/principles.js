@@ -137,7 +137,7 @@ const Principles = () => (
         </Principle>
       </PrincipleList>
 
-      <Button link to='/'>
+      <Button link to="/">
         ⟵ MANIFESTO
       </Button>
     </Main>
