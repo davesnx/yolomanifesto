@@ -3577,10 +3577,10 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-davesnx-rules@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/eslint-config-davesnx-rules/-/eslint-config-davesnx-rules-1.1.0.tgz#08a65babe52398f6a8f9b145d2b1f3b5f1c8f48c"
-  integrity sha512-AU6YYMwlTpBMuKrW1FhvU7UYwJDL3Hs1tuaEHi9WWXc9rmWz20zhlsOLp6IVLqWpnLLmsh/0hobpKdWYQRKB5A==
+eslint-config-davesnx-rules@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-davesnx-rules/-/eslint-config-davesnx-rules-1.2.0.tgz#ff79e95e9f7ea086fb387ae9d1a01ef3e1146e74"
+  integrity sha512-fi6J72z4IMssVxA23qgDOY08+s6QEX3zq0okm4BDdc+OSS0NjWGjuViAnBmgp2AhCXtMW77+3hv65fSR/CVNPw==
   dependencies:
     babel-eslint "^10.0.3"
     eslint "^6.5.1"
