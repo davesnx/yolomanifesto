@@ -722,12 +722,12 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.2":
-  version "7.6.2"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
-  integrity sha512-EXxN64agfUqqIGeEjI5dL5z0Sw0ZwWo1mLTi4mQowCZ42O59b7DRpZAnTC6OqdF28wMBMFKNb/4uFGrVaigSpg==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.2":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
+  integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
   dependencies:
-    regenerator-runtime "^0.13.2"
+    regenerator-runtime "^0.13.4"
 
 "@babel/template@^7.1.0", "@babel/template@^7.4.4", "@babel/template@^7.6.0":
   version "7.6.0"
@@ -4610,12 +4610,12 @@ gatsby-plugin-page-creator@^2.1.23:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.1.10:
-  version "3.1.10"
-  resolved "https://registry.npmjs.org/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.10.tgz#7e2a2c8addacdbd27d9b75d2b4928081d6da537c"
-  integrity sha512-xv3FlZGDPscXkm0jwZJvcwe50T4EcU7t8TnCsf7FC7YBzfil7FQ2k5YUB8LaG4DNEM5Vl35WKS5ad/5eSkmGIA==
+gatsby-plugin-react-helmet@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.10.0.tgz#421bbee87157c351d19031d62145c2ab6c00ef94"
+  integrity sha512-TktmUysb7wDwYOKowNcpXxLJfQiwQ7cSQ8ALH3pJrW63wBaCoBXvAHg3OhgHVR74CrqN2Tb89tr3GXa4JhO4Qw==
   dependencies:
-    "@babel/runtime" "^7.6.2"
+    "@babel/runtime" "^7.12.5"
 
 gatsby-plugin-sitemap@^2.2.16:
   version "2.2.16"
@@ -8727,6 +8727,11 @@ regenerator-runtime@^0.13.2:
   version "0.13.3"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
