@@ -34,6 +34,6 @@
   "devDependencies": {
     "eslint-config-davesnx-rules": "^1.1.0",
     "eslint": "^6.5.1",
-    "husky": "^3.0.8"
+    "husky": "^7.0.1"
   }
 }
