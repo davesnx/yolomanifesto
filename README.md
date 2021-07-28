@@ -1,8 +1,5 @@
-### The Yolo Manifesto Website
+## Yolo Manifesto Website
 
-Welcome to the repository where Yolo Manifesto's content lives.
+Welcome to the repository where Yolo Manifesto's website used to live.
 
-Feel free to open an issue or change anything on a PR :+1:
-
-
-[![Build Status](https://travis-ci.org/davesnx/yolomanifesto.com.svg?branch=master)](https://travis-ci.org/davesnx/yolomanifesto.com)
+### It doesn't exist, there's non org or team that has implemented properly. It's death. If you want the domain, let me know :)
